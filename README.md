@@ -1,13 +1,10 @@
-[Timetable][def1]
+[Timetable](https://heenatariq765.github.io/Web-Tech-Lab--CSP3313/studentreg.html.html)
 <br>
-[Form][def2]
+[Form](https://heenatariq765.github.io/Web-Tech-Lab--CSP3313/form2.html)
 <br>
-[Form-2][def3]
+[Form-2](https://heenatariq765.github.io/Web-Tech-Lab--CSP3313/FORM.html)
 <br>
-[student-Registration-form][def4]
+[student-Registration-form](https://heenatariq765.github.io/Web-Tech-Lab--CSP3313/TimetableCSE3rdsem.html)
 
+ 
 
-[def4] (https://heenatariq765.github.io/Web-Tech-Lab--CSP3313/studentreg.html.html)
-[def3]:(https://heenatariq765.github.io/Web-Tech-Lab--CSP3313/form2.html)
-[def2]:(https://heenatariq765.github.io/Web-Tech-Lab--CSP3313/FORM.html)
-[def1]: (https://heenatariq765.github.io/Web-Tech-Lab--CSP3313/TimetableCSE3rdsem.html)
