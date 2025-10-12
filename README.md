@@ -1,6 +1,9 @@
 [Timetable][def1]
+<br>
 [Form][def2]
+<br>
 [Form-2][def3]
+<br>
 [student-Registration-form][def4]
 
 
