@@ -5,4 +5,7 @@
 [Student-registration](https://heenatariq765.github.io/Web-Tech-Lab--CSP3313/registration.html)
 <br>
  [Layout](https://heenatariq765.github.io/Web-Tech-Lab--CSP3313/layout.html)
-
+<br>
+[Calculator](https://heenatariq765.github.io/Web-Tech-Lab--CSP3313/calculator)
+<br>
+[Frameset](https://heenatariq765.github.io/Web-Tech-Lab--CSP3313/frameset)
