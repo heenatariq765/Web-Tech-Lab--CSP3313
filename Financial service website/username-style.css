@@ -1,0 +1,88 @@
+*{
+    margin:10px;
+    padding:10px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    justify-content: center;
+    backface-visibility: 20%;
+}
+  
+  body{
+    height: 100%;
+    width: 100%;
+    background:#fff;
+    display: circle;
+  }
+  img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
+  .logo{
+    font-size: 28px;
+    font-weight: 700;
+    color:#23406a;
+  }
+  .profile h3{
+    color:coral;
+    font-size: 20px;
+    margin: bottom 5px;
+  }
+  .user-id{
+    color:#444;
+    font-size:15px;
+  }
+  .switch-link{
+    padding: 0%;
+    display:inline-block;
+    color:blueviolet;
+    text-decoration: dotted;
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  .fingerprint img{
+    width: 20%;
+    margin:30px 0 20px;
+    opacity:0.9;
+  }
+  .btn{
+    width:38%;
+    background: linear-gradient(90deg,#23406a,#2f6fbf);
+  color:#fff;
+  border:none;
+  padding:12px;
+  border-radius: 25px;
+  font-size:17px;
+  cursor:pointer;
+  }
+  .buttons .bt:hover{
+    background: linear-gradient(90deg,#2f6fbf,#23406a);
+  }
+  .or-text{
+    color:#666;
+    margin:15px 0 5px;
+    font-size:13px;
+    }
+.otp-link{
+  color:darkorange;
+  font-weight: 600;
+  font-size: 15px;
+}
+.otp-link:hover{
+  text-decoration: wavy;
+}
+.footer-note{
+  font-size:11px;
+  color:hotpink;
+  margin-top: 25px;
+}
+
+
+#pic{
+  margin-top: 5px;
+  width:20%;
+  height:20%;
+
+  
+}

@@ -1,0 +1,47 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#9b1825,#6c0a67);
+
+}
+.contact{
+    height: 500px;
+    background:#121210;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px 5px rgba(20, 20, 20, 0.3);
+    width: 400px;
+}
+.box{
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px 14px;
+    font-size: 18px;;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+.box:hover{
+    border: 2px solid #fff;
+    transition:0.98s;
+}
+.btn{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color:#0f137a;
+    text-align: center;
+    cursor:pointer;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color:#d90429;
+    color:#fff;
+}

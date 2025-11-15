@@ -1,0 +1,83 @@
+*{
+    margin:5px;
+    padding:5px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    display:flex;
+    background-color: #738db9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+.btn{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color:#1c3557;
+    text-align: center;
+    cursor:pointer;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color:red;
+    color:#fff;
+}
+.register-box{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: #b97070;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(86, 17, 17, 0.2);
+    width: 350px;
+    margin-top: 20px;
+}
+.ragister-box form{
+    padding:20px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 15px rgba(86, 17, 17, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+}
+.ragister-box form .box{
+    width: 50%;
+    border-radius: 5px;
+    padding: 12px 14px;
+    font-size: 18px;;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+.register-box h1{
+    margin-top: 10px;
+    color: #1c3557;
+}
+.back-link{
+    margin-top: 15px;
+    color: #1c3557;
+    text-decoration: none;
+}
+.back-link:hover{
+    text-decoration: underline;
+}
+.box{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.box:focus{
+    border-color: #bf2fac;
+    border-style: solid;
+}

@@ -1,0 +1,173 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stocks</title>
+
+<style>
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial; }
+
+body {
+    background: #f5f5f5;
+}
+
+/* Fixed Top Section */
+.header, .indexes, .tabs {
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.title { font-size: 20px; font-weight: bold; }
+
+.icons { font-size: 22px; display: flex; gap: 15px; }
+
+/* INDEX BOXES */
+.indexes {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.index-box {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+.index-green { color: green; }
+
+/* TABS */
+.tabs {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.tabs label {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="radio"] { display: none; }
+
+input#tab1:checked ~ .tabs label[for="tab1"],
+input#tab2:checked ~ .tabs label[for="tab2"] {
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+/* CONTENT */
+.content {
+    padding: 15px;
+}
+
+/* Show / Hide content via CSS */
+#holdings, #orders {
+    display: none;
+}
+
+#tab1:checked ~ #holdings {
+    display: block;
+}
+#tab2:checked ~ #orders {
+    display: block;
+}
+
+/* UI BOXES */
+.box {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+.green { color: green; }
+.red { color: red; }
+
+.orders-empty {
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+}
+
+</style>
+</head>
+<body>
+
+<!-- RADIO BUTTONS FOR CSS TABS -->
+<input type="radio" name="tabs" id="tab1" checked>
+<input type="radio" name="tabs" id="tab2">
+
+<!-- HEADER -->
+<div class="header">
+    <div class="title">Stocks</div>
+    <div class="icons">🔍 ⬜ </div>
+</div>
+
+<!-- INDEXES -->
+<div class="indexes">
+    <div class="index-box">
+        NIFTY 50<br>
+        <span class="index-green">25,866.60  +25.45</span>
+    </div>
+    <div class="index-box">
+        SENSEX<br>
+        <span class="index-green">84,426.34 +62.97</span>
+    </div>
+</div>
+
+<!-- TABS -->
+<div class="tabs">
+    <label for="tab1">Holdings</label>
+    <label for="tab2">Orders</label>
+</div>
+
+<!-- CONTENT AREA -->
+
+<!-- HOLDINGS PAGE -->
+<div id="holdings" class="content">
+
+    <div class="box">
+        <h2>₹13,529.60</h2>
+        <p class="green">1D returns: +₹59.00 (0.44%)</p>
+        <p class="green">Total returns: +₹146.60 (1.10%)</p>
+    </div>
+
+    <div class="box">
+        <b>NTPC Green Energy</b><br>
+        <span class="red">₹10,055.00</span>
+    </div>
+
+    <div class="box">
+        <b>Protean e-Gov Tech</b><br>
+        <span class="green">₹3,474.60</span>
+    </div>
+
+</div>
+
+<!-- ORDERS PAGE -->
+<div id="orders" class="content">
+    <div class="orders-empty">
+        <img src="https://cdn-icons-png.flaticon.com/512/833/833593.png" width="100"><br><br>
+        <h3>You have no open orders</h3>
+        <p>All orders</p>
+    </div>
+</div>
+
+</body>
+</html>
