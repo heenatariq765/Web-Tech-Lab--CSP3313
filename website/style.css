@@ -1,0 +1,19 @@
+a{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 60px;
+            text-align: center;
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+        body {
+            text-align: center;
+            font-size: 40px;
+            color: green;
+            background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.in%2FDASHAN-Backdrop-Birthday-Photography-Background%2Fdp%2FB0BKZPBD4W&psig=AOvVaw0DjYVY0FEik3aRCz5n2B9N&ust=1760860029680000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNiE3fagrZADFQAAAAAdAAAAABAE");
+            background-repeat: no-repeat;
+            background-size: auto;
+        }
