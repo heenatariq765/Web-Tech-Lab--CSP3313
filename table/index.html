@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            TABLE
+        </title>
+        <style>
+            body{
+               background: linear-gradient(#6c0a67,#9b1825,#6c0a67);
+               padding-top: 100px;
+               text-align: center;
+               padding-left: 600px;
+           
+            }
+            table,tr,td{
+                border: 2px solid black;
+                border-collapse: collapse;
+                    width: 300px;
+            }
+                 table{
+                text-align: center;
+                background:linear-gradient(#f5f7fa,#c3cfe2);
+                }
+       
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>Number</td>
+                <td>Square</td>
+                <td>Cube</td>
+                
+            </tr>
+        </table>
+<script>
+    let table=document.querySelector("table");
+    for(let i=1;i<21;i++){
+        let row1=document.createElement("tr");
+        row1.innertext=i;
+        table.appendChild(row1);
+        let td1=document.createElement("td");
+        td1.innerText=i;
+        row1.appendChild(td1);
+        let td2=document.createElement("td");
+        td2.innerText=i*i;
+        row1.appendChild(td2);
+        let td3=document.createElement("td");
+        td3.innerText=i*i*i;
+        row1.appendChild(td3);
+    
+    }
+</script>
+    </body>
+</html>
+ 
