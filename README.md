@@ -10,6 +10,6 @@
 <br>
 [Frameset](https://heenatariq765.github.io/Web-Tech-Lab--CSP3313/frameset)
 <br>
-[Assignment:Website](https://heenatariq765.github.io/Web-Tech-Assignment)
+[Assignment:Website](https://heenatariq765.github.io/financial-service-website)
 <br>
 [Table(sq and cubes)](https://heenatariq765.github.io/Web-Tech-Lab--CSP3313/table)
