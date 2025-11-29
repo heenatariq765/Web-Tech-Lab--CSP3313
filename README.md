@@ -13,3 +13,7 @@
 [Assignment:Website](https://heenatariq765.github.io/financial-service-website)
 <br>
 [Table(sq and cubes)](https://heenatariq765.github.io/Web-Tech-Lab--CSP3313/table)
+<br>
+[DateAndTime](https://heenatariq765.github.io/today's_date\index.html)
+<br>
+[Text_Grow_and_Shrink](https://heenatariq765.github.io/text_growing\index.html)

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TExt-Growing and Text-Shrinking</title>
+    </head>
+    <body>
+        <div>
+        <p id="growShrink">Text_Growing_and_Shrinking</p>
+        </div>
+        <style>
+            body {
+                color: rgb(94, 39, 87);
+                background-color: rgb(238, 148, 232);
+                font-family: Arial, sans-serif;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                margin: 0;
+            }
+            #growShrink {
+                margin: 0;
+                transition: color 150ms linear;
+            }
+        </style>
+        <script>
+            const para = document.getElementById('growShrink');
+let fontSize = para.style.fontSize; 
+let growing = true; 
+
+function growShrinkPara() { 
+  if (growing) {
+    fontSize += 1;
+    if (fontSize >= 80) growing = false; 
+  } else {
+    fontSize -= 1;
+    if (fontSize <= 30) growing = true;
+  }
+  para.style.fontSize = fontSize + 'px';
+}
+
+setInterval(growShrinkPara, 50);
+        </script>
+
+  
+    </body>
+</html>

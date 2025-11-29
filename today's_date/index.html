@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Today's Date and time</title>
+    <body>
+    <h2>Display Today's Date</h2>
+    <p id="date"></p>
+    <h2>Current Time:</h2>
+    <p id="time"></p>
+    <style>
+        body { font-family: Arial, sans-serif;
+             margin: 20px;
+             padding-top: 200px;
+            background:rgb(178, 191, 175);
+            }
+        h2 { color: #333;
+        text-align: center;
+      }
+        #date, #time {
+            text-align: center;
+             font-size: 1.2em; 
+             color: #111213; }
+    </style>
+    <script>
+        window.onload = function () {
+            let today = new Date();
+
+            let day = String(today.getDate()).padStart(2, '0');
+            let month = String(today.getMonth() + 1).padStart(2, '0');
+            let year = today.getFullYear();
+
+            let formattedDate = day + "-" + month + "-" + year;
+
+            document.getElementById("date").textContent =
+                "Today's Date is: " + formattedDate;
+
+            function updateTime() {
+                const currentTime = new Date();
+                document.getElementById('time').textContent = currentTime.toLocaleTimeString();
+            }
+            setInterval(updateTime, 1000);
+            updateTime(); 
+        }
+    </script>
+    </body>
+    </head>
+</html>
