@@ -14,6 +14,6 @@
 <br>
 [Table(sq and cubes)](https://heenatariq765.github.io/Web-Tech-Lab--CSP3313/table)
 <br>
-[DateAndTime](https://heenatariq765.github.io/today's_date\index.html)
+[DateAndTime](https://heenatariq765.github.io/Web-Tech-Lab--CSP3313/today's_date)
 <br>
-[Text_Grow_and_Shrink](https://heenatariq765.github.io/text_growing\index.html)
+[Text_Grow_and_Shrink](https://heenatariq765.github.io/Web-Tech-Lab--CSP3313/text_growing)
